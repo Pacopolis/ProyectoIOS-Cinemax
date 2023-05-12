@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C56CD7C2A0EA18400808B1E /* BoletosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56CD7B2A0EA18400808B1E /* BoletosViewController.swift */; };
+		7C56CD7E2A0EA1EB00808B1E /* BoletosTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56CD7D2A0EA1EB00808B1E /* BoletosTicketViewController.swift */; };
+		7C56CD822A0EA23200808B1E /* VentaBoletos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56CD812A0EA23200808B1E /* VentaBoletos.swift */; };
 		7CB9A5902A03543200A31D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A58F2A03543200A31D7A /* AppDelegate.swift */; };
 		7CB9A5922A03543200A31D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A5912A03543200A31D7A /* SceneDelegate.swift */; };
 		7CB9A5942A03543200A31D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A5932A03543200A31D7A /* ViewController.swift */; };
 		7CB9A5972A03543200A31D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB9A5952A03543200A31D7A /* Main.storyboard */; };
 		7CB9A5992A03543700A31D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB9A5982A03543700A31D7A /* Assets.xcassets */; };
 		7CB9A59C2A03543700A31D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB9A59A2A03543700A31D7A /* LaunchScreen.storyboard */; };
+		7CB9A5A42A03577A00A31D7A /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A5A32A03577A00A31D7A /* MyCell.swift */; };
+		7CF540712A04A23700400E23 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF540702A04A23700400E23 /* MyTableViewCell.swift */; };
+		7CF540732A04D51600400E23 /* Funcion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF540722A04D51600400E23 /* Funcion.swift */; };
+		7CF540752A04D54D00400E23 /* Sala.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF540742A04D54D00400E23 /* Sala.swift */; };
+		7CF540772A04D76300400E23 /* MyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF540762A04D76300400E23 /* MyDetailsViewController.swift */; };
+		7CF540792A04DAAB00400E23 /* Horarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF540782A04DAAA00400E23 /* Horarios.swift */; };
+		7CF5407B2A04DD6300400E23 /* Funcional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5407A2A04DD6300400E23 /* Funcional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C56CD7B2A0EA18400808B1E /* BoletosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoletosViewController.swift; sourceTree = "<group>"; };
+		7C56CD7D2A0EA1EB00808B1E /* BoletosTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoletosTicketViewController.swift; sourceTree = "<group>"; };
+		7C56CD812A0EA23200808B1E /* VentaBoletos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VentaBoletos.swift; sourceTree = "<group>"; };
 		7CB9A58C2A03543200A31D7A /* Proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB9A58F2A03543200A31D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB9A5912A03543200A31D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,13 @@
 		7CB9A5982A03543700A31D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB9A59B2A03543700A31D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB9A59D2A03543700A31D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB9A5A32A03577A00A31D7A /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		7CF540702A04A23700400E23 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		7CF540722A04D51600400E23 /* Funcion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcion.swift; sourceTree = "<group>"; };
+		7CF540742A04D54D00400E23 /* Sala.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sala.swift; sourceTree = "<group>"; };
+		7CF540762A04D76300400E23 /* MyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailsViewController.swift; sourceTree = "<group>"; };
+		7CF540782A04DAAA00400E23 /* Horarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horarios.swift; sourceTree = "<group>"; };
+		7CF5407A2A04DD6300400E23 /* Funcional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +79,20 @@
 				7CB9A58F2A03543200A31D7A /* AppDelegate.swift */,
 				7CB9A5912A03543200A31D7A /* SceneDelegate.swift */,
 				7CB9A5932A03543200A31D7A /* ViewController.swift */,
+				7CF540702A04A23700400E23 /* MyTableViewCell.swift */,
+				7CF540762A04D76300400E23 /* MyDetailsViewController.swift */,
+				7C56CD7B2A0EA18400808B1E /* BoletosViewController.swift */,
+				7C56CD7D2A0EA1EB00808B1E /* BoletosTicketViewController.swift */,
 				7CB9A5952A03543200A31D7A /* Main.storyboard */,
 				7CB9A5982A03543700A31D7A /* Assets.xcassets */,
 				7CB9A59A2A03543700A31D7A /* LaunchScreen.storyboard */,
 				7CB9A59D2A03543700A31D7A /* Info.plist */,
+				7CB9A5A32A03577A00A31D7A /* MyCell.swift */,
+				7CF540722A04D51600400E23 /* Funcion.swift */,
+				7CF540742A04D54D00400E23 /* Sala.swift */,
+				7CF540782A04DAAA00400E23 /* Horarios.swift */,
+				7C56CD812A0EA23200808B1E /* VentaBoletos.swift */,
+				7CF5407A2A04DD6300400E23 /* Funcional.swift */,
 			);
 			path = Proyecto;
 			sourceTree = "<group>";
@@ -139,8 +169,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB9A5942A03543200A31D7A /* ViewController.swift in Sources */,
+				7C56CD7E2A0EA1EB00808B1E /* BoletosTicketViewController.swift in Sources */,
+				7CF540732A04D51600400E23 /* Funcion.swift in Sources */,
+				7C56CD7C2A0EA18400808B1E /* BoletosViewController.swift in Sources */,
+				7C56CD822A0EA23200808B1E /* VentaBoletos.swift in Sources */,
+				7CB9A5A42A03577A00A31D7A /* MyCell.swift in Sources */,
+				7CF540772A04D76300400E23 /* MyDetailsViewController.swift in Sources */,
+				7CF540792A04DAAB00400E23 /* Horarios.swift in Sources */,
 				7CB9A5902A03543200A31D7A /* AppDelegate.swift in Sources */,
 				7CB9A5922A03543200A31D7A /* SceneDelegate.swift in Sources */,
+				7CF540752A04D54D00400E23 /* Sala.swift in Sources */,
+				7CF540712A04A23700400E23 /* MyTableViewCell.swift in Sources */,
+				7CF5407B2A04DD6300400E23 /* Funcional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
